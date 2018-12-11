@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities1">
+    <EntitySetMapping Name="CARRO">
+      <EntityTypeMapping TypeName="Model.CARRO">
+        <MappingFragment StoreEntitySet="CARRO">
+          <ScalarProperty Name="PLACA" ColumnName="PLACA" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="CILINDRAJE" ColumnName="CILINDRAJE" />
+          <ScalarProperty Name="MODELO" ColumnName="MODELO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMPRADOR">
+      <EntityTypeMapping TypeName="Model.COMPRADOR">
+        <MappingFragment StoreEntitySet="COMPRADOR">
+          <ScalarProperty Name="ID_COMPRADOR" ColumnName="ID_COMPRADOR" />
+          <ScalarProperty Name="NOMBRE_COMPRADOR" ColumnName="NOMBRE_COMPRADOR" />
+          <ScalarProperty Name="TELEFONO_COMPRADOR" ColumnName="TELEFONO_COMPRADOR" />
+          <ScalarProperty Name="CORREO_COMPRADOR" ColumnName="CORREO_COMPRADOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VENDEDOR">
+      <EntityTypeMapping TypeName="Model.VENDEDOR">
+        <MappingFragment StoreEntitySet="VENDEDOR">
+          <ScalarProperty Name="ID_VENDEDOR" ColumnName="ID_VENDEDOR" />
+          <ScalarProperty Name="NOMBRE_VENDEDOR" ColumnName="NOMBRE_VENDEDOR" />
+          <ScalarProperty Name="TELEFONO_VENDEDOR" ColumnName="TELEFONO_VENDEDOR" />
+          <ScalarProperty Name="CORREO_VENDEDOR" ColumnName="CORREO_VENDEDOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CARROCOMPRADOR" TypeName="Model.CARROCOMPRADOR" StoreEntitySet="CARROCOMPRADOR">
+      <EndProperty Name="CARRO">
+        <ScalarProperty Name="PLACA" ColumnName="CARRO_PLACA" />
+      </EndProperty>
+      <EndProperty Name="VENDEDOR">
+        <ScalarProperty Name="ID_VENDEDOR" ColumnName="VENDEDOR_ID_VENDEDOR" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="CARROVENDEDOR" TypeName="Model.CARROVENDEDOR" StoreEntitySet="CARROVENDEDOR">
+      <EndProperty Name="CARRO">
+        <ScalarProperty Name="PLACA" ColumnName="CARRO_PLACA" />
+      </EndProperty>
+      <EndProperty Name="COMPRADOR">
+        <ScalarProperty Name="ID_COMPRADOR" ColumnName="COMPRADOR_ID_COMPRADOR" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

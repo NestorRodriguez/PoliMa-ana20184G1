@@ -1,0 +1,234 @@
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\ApplicationInsights.config
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\csc.exe
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\csc.exe.config
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\csc.rsp
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\csi.exe
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\csi.rsp
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\System.AppContext.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\System.Collections.Immutable.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\System.IO.FileSystem.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\vbc.exe
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\vbc.exe.config
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\vbc.rsp
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\VBCSCompiler.exe
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\roslyn\VBCSCompiler.exe.config
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\app.dll.config
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\app.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\app.pdb
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Antlr3.Runtime.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\EntityFramework.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\EntityFramework.SqlServer.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.Web.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.WindowsServer.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.ApplicationInsights.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Google.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Web.Infrastructure.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Newtonsoft.Json.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Owin.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Helpers.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Mvc.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Optimization.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Razor.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.WebPages.Deployment.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.WebPages.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.WebPages.Razor.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\WebGrease.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Helpers.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Mvc.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Optimization.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.Razor.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.WebPages.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.WebPages.Deployment.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\System.Web.WebPages.Razor.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Antlr3.Runtime.pdb
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Newtonsoft.Json.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\EntityFramework.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\EntityFramework.SqlServer.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Google.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.ApplicationInsights.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.WindowsServer.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\Microsoft.AI.Web.xml
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.Helpers.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.Mvc.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.Optimization.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.Razor.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.WebPages.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\EntityFramework.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\obj\Debug\app.csprojResolveAssemblyReference.cache
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\obj\Debug\app.dll
+c:\users\soft2-01\documents\visual studio 2017\Projects\app\app\obj\Debug\app.pdb
+C:\Users\Soft2-01\documents\visual studio 2017\Projects\app\app\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Soft2-01\documents\visual studio 2017\Projects\app\app\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\ApplicationInsights.config
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\csc.exe
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\csc.exe.config
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\csc.rsp
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\csi.exe
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\csi.rsp
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\System.AppContext.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\vbc.exe
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\vbc.exe.config
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\vbc.rsp
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\VBCSCompiler.exe
+C:\Users\Soft2-01\Downloads\app\app\app\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Soft2-01\Downloads\app\app\app\bin\app.dll.config
+C:\Users\Soft2-01\Downloads\app\app\app\bin\app.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\app.pdb
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Antlr3.Runtime.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\EntityFramework.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\EntityFramework.SqlServer.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.Web.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Newtonsoft.Json.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Owin.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Helpers.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Mvc.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Optimization.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Razor.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.WebPages.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.WebPages.Razor.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\WebGrease.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Helpers.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Mvc.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Optimization.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.Razor.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.WebPages.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\System.Web.WebPages.Razor.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Antlr3.Runtime.pdb
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Newtonsoft.Json.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\EntityFramework.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\EntityFramework.SqlServer.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\Microsoft.AI.Web.xml
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.Razor.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\EntityFramework.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Soft2-01\Downloads\app\app\app\obj\Debug\app.csprojResolveAssemblyReference.cache
+C:\Users\Soft2-01\Downloads\app\app\app\obj\Debug\app.dll
+C:\Users\Soft2-01\Downloads\app\app\app\obj\Debug\app.pdb

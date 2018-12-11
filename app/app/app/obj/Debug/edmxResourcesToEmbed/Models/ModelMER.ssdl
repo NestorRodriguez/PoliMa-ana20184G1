@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CARRO">
+    <Key>
+      <PropertyRef Name="PLACA" />
+    </Key>
+    <Property Name="PLACA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="COLOR" Type="varchar2" MaxLength="20" />
+    <Property Name="CILINDRAJE" Type="number" Precision="38" Scale="0" />
+    <Property Name="MODELO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SYSTEM.CARROCOMPRADOR' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CARROCOMPRADOR">
+    <Key>
+      <PropertyRef Name="CARRO_PLACA" />
+      <PropertyRef Name="VENDEDOR_ID_VENDEDOR" />
+    </Key>
+    <Property Name="CARRO_PLACA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="VENDEDOR_ID_VENDEDOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SYSTEM.CARROVENDEDOR' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CARROVENDEDOR">
+    <Key>
+      <PropertyRef Name="CARRO_PLACA" />
+      <PropertyRef Name="COMPRADOR_ID_COMPRADOR" />
+    </Key>
+    <Property Name="CARRO_PLACA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="COMPRADOR_ID_COMPRADOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="COMPRADOR">
+    <Key>
+      <PropertyRef Name="ID_COMPRADOR" />
+    </Key>
+    <Property Name="ID_COMPRADOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE_COMPRADOR" Type="varchar2" MaxLength="20" />
+    <Property Name="TELEFONO_COMPRADOR" Type="number" Precision="38" Scale="0" />
+    <Property Name="CORREO_COMPRADOR" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="VENDEDOR">
+    <Key>
+      <PropertyRef Name="ID_VENDEDOR" />
+    </Key>
+    <Property Name="ID_VENDEDOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE_VENDEDOR" Type="varchar2" MaxLength="20" />
+    <Property Name="TELEFONO_VENDEDOR" Type="number" Precision="38" Scale="0" />
+    <Property Name="CORREO_VENDEDOR" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <Association Name="CARROCOMPRADOR_CARRO_FK">
+    <End Role="CARRO" Type="Self.CARRO" Multiplicity="1" />
+    <End Role="CARROCOMPRADOR" Type="Self.CARROCOMPRADOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARRO">
+        <PropertyRef Name="PLACA" />
+      </Principal>
+      <Dependent Role="CARROCOMPRADOR">
+        <PropertyRef Name="CARRO_PLACA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CARROCOMPRADOR_VENDEDOR_FK">
+    <End Role="VENDEDOR" Type="Self.VENDEDOR" Multiplicity="1" />
+    <End Role="CARROCOMPRADOR" Type="Self.CARROCOMPRADOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VENDEDOR">
+        <PropertyRef Name="ID_VENDEDOR" />
+      </Principal>
+      <Dependent Role="CARROCOMPRADOR">
+        <PropertyRef Name="VENDEDOR_ID_VENDEDOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CARROVENDEDOR_CARRO_FK">
+    <End Role="CARRO" Type="Self.CARRO" Multiplicity="1" />
+    <End Role="CARROVENDEDOR" Type="Self.CARROVENDEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARRO">
+        <PropertyRef Name="PLACA" />
+      </Principal>
+      <Dependent Role="CARROVENDEDOR">
+        <PropertyRef Name="CARRO_PLACA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CARROVENDEDOR_COMPRADOR_FK">
+    <End Role="COMPRADOR" Type="Self.COMPRADOR" Multiplicity="1" />
+    <End Role="CARROVENDEDOR" Type="Self.CARROVENDEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="COMPRADOR">
+        <PropertyRef Name="ID_COMPRADOR" />
+      </Principal>
+      <Dependent Role="CARROVENDEDOR">
+        <PropertyRef Name="COMPRADOR_ID_COMPRADOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="CARRO" EntityType="Self.CARRO" Schema="SYSTEM" store:Type="Tables" />
+    <EntitySet Name="COMPRADOR" EntityType="Self.COMPRADOR" Schema="SYSTEM" store:Type="Tables" />
+    <EntitySet Name="VENDEDOR" EntityType="Self.VENDEDOR" Schema="SYSTEM" store:Type="Tables" />
+    <EntitySet Name="CARROCOMPRADOR" EntityType="Self.CARROCOMPRADOR" store:Type="Tables" store:Schema="SYSTEM">
+      <DefiningQuery>SELECT 
+"CARROCOMPRADOR"."CARRO_PLACA" AS "CARRO_PLACA", 
+"CARROCOMPRADOR"."VENDEDOR_ID_VENDEDOR" AS "VENDEDOR_ID_VENDEDOR"
+FROM "SYSTEM"."CARROCOMPRADOR" "CARROCOMPRADOR"</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CARROVENDEDOR" EntityType="Self.CARROVENDEDOR" store:Type="Tables" store:Schema="SYSTEM">
+      <DefiningQuery>SELECT 
+"CARROVENDEDOR"."CARRO_PLACA" AS "CARRO_PLACA", 
+"CARROVENDEDOR"."COMPRADOR_ID_COMPRADOR" AS "COMPRADOR_ID_COMPRADOR"
+FROM "SYSTEM"."CARROVENDEDOR" "CARROVENDEDOR"</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="CARROCOMPRADOR_CARRO_FK" Association="Self.CARROCOMPRADOR_CARRO_FK">
+      <End Role="CARRO" EntitySet="CARRO" />
+      <End Role="CARROCOMPRADOR" EntitySet="CARROCOMPRADOR" />
+    </AssociationSet>
+    <AssociationSet Name="CARROCOMPRADOR_VENDEDOR_FK" Association="Self.CARROCOMPRADOR_VENDEDOR_FK">
+      <End Role="VENDEDOR" EntitySet="VENDEDOR" />
+      <End Role="CARROCOMPRADOR" EntitySet="CARROCOMPRADOR" />
+    </AssociationSet>
+    <AssociationSet Name="CARROVENDEDOR_CARRO_FK" Association="Self.CARROVENDEDOR_CARRO_FK">
+      <End Role="CARRO" EntitySet="CARRO" />
+      <End Role="CARROVENDEDOR" EntitySet="CARROVENDEDOR" />
+    </AssociationSet>
+    <AssociationSet Name="CARROVENDEDOR_COMPRADOR_FK" Association="Self.CARROVENDEDOR_COMPRADOR_FK">
+      <End Role="COMPRADOR" EntitySet="COMPRADOR" />
+      <End Role="CARROVENDEDOR" EntitySet="CARROVENDEDOR" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
